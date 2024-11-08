@@ -1,0 +1,40 @@
+#how-to-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.7
+  ); /* Adjust the alpha value to control the transparency */
+  backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+  border: none;
+  width: fit-content;
+  height: 300px;
+  outline: rgb(201, 201, 59) 2px solid;
+}
+
+#how-to-play > p {
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+
+.blur-background {
+  background: #00000024;
+  /* Set other styles for the background container */
+  /* For example: */
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}

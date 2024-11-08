@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap");
+.score-board {
+  font-family: "Helvetica", cursive;
+  display: flex;
+  gap: 2rem;
+  padding-top: 1.2rem;
+  padding-bottom: 5rem;
+  font-size: 13px;
+  color: Violet;
+  justify-content: center;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+span {
+  font-family: "Tektur", cursive;
+  font-size: 3.5rem;
+  color: rgb(227, 54, 54);
+}
+
+span#sec {
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 0rem 1rem 0rem;
+}
+
+#Info {
+  width: fit-content;
+  height: auto;
+  outline: none;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 101;
+  background: rgba(247, 246, 246, 0.317);
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+#light {
+  width: 50px;
+  height: 50px;
+}
